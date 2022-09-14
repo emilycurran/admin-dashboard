@@ -202,14 +202,75 @@ body{
 }
 
 .announcements{
-    height: 260px;
+    height: 240px;
     border-radius: 10px;
     grid-area: 1/2/1/2;
 }
+
+.announcements.card{
+    display: grid;
+    grid-template-rows: 1fr 1px 1fr 1px 1fr;
+    grid-template-columns: 1fr;
+}
+
+.announcement{
+    display: grid;
+    grid-template-rows: 20px 1fr;
+    padding: 10px 20px 10px;
+}
+
+hr{
+    margin: 0 20px 0;
+}
+
+.announcement-title{
+    font-size: 12px;
+}
+
+.announcement-description{
+    font-size: 10px;
+}
+
+
 .trending{
-    height: 260px;
+    height: 240px;
     border-radius: 10px;
     grid-area: 2/2/2/2;
+}
+
+.trending .card{
+    display: grid;
+    padding: 15px 0 15px 0;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+}
+
+.trending-post{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 80px 1fr;
+    grid-template-rows: 1fr 1fr;
+    width: 100%;
+}
+
+.trending-post img{
+    grid-column: 1/2;
+    grid-row: 1/3;
+    border-radius: 50%;
+    height: 50px;
+    align-self: center;
+    justify-self: center;
+}
+
+.trending-post .handle{
+    align-self: flex-end;
+
+}
+
+.trending-post .bio{
+    align-self: flex-start;
+    color: grey;
+    font-size: 12px;
 }
 
 img{
