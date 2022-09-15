@@ -17,30 +17,30 @@
             </div>
 
             <ul class="nav">
-                <li><img src="./home.svg">Home</li>
-                <li><img src="./card-account-details-outline.svg">Profile</li>
-                <li><img src="./message-reply.svg">Messages</li>
-                <li><img src="./clock.svg">History</li>
-                <li><img src="./note-multiple.svg">Tasks</li>
-                <li><img src="./account-group.svg">Communities</li>
+                <li class="clickable"><img class="clickable" src="./home.svg">Home</li>
+                <li class="clickable"><img class="clickable" src="./card-account-details-outline.svg">Profile</li>
+                <li class="clickable"><img class="clickable" src="./message-reply.svg">Messages</li>
+                <li class="clickable"><img class="clickable" src="./clock.svg">History</li>
+                <li class="clickable"><img class="clickable" src="./note-multiple.svg">Tasks</li>
+                <li class="clickable"><img class="clickable" src="./account-group.svg">Communities</li>
             </ul>
             <ul class="support">
-                <li><img src="./cog.svg">Settings</li>
-                <li><img src="./help-box.svg">Support</li>
-                <li><img src="./shield-check.svg">Privacy</li>
+                <li class="clickable"><img class="clickable" src="./cog.svg">Settings</li>
+                <li class="clickable"><img class="clickable" src="./help-box.svg">Support</li>
+                <li class="clickable"><img class="clickable" src="./shield-check.svg">Privacy</li>
             </ul>
         </div>
 
         <div class="header">
             <div class="top-header">
                 <div class="left">
-                    <img src="./magnify.svg" alt="search button">
-                    <div id="search-box"></div>
+                    <img class="clickable" src="./magnify.svg" alt="search button">
+                    <input class="search-input" type="text" id="search-box" name="searchresult" value="">
                 </div>
                 <div class="right">
-                    <img src="./bell-ring-outline.svg" alt="notification bell">
+                    <img class="clickable" src="./bell-ring-outline.svg" alt="notification bell">
                     <img class="profile" src="./jae-park-7GX5aICb5i4-unsplash.jpg" alt="profile picture">
-                    <p id="username">Emily Curran</p>
+                    <p id="username" class="clickable">Emily Curran</p>
                 </div>
             </div>
             <div class="bottom-header">
@@ -52,9 +52,9 @@
                     </div>
                 </div>
                 <div class="right">
-                    <button id="new-button">New</button>
-                    <button id="upload-button">Upload</button>
-                    <button id="share-button">Share</button>
+                    <button class="clickable" id="new-button">New</button>
+                    <button class="clickable" id="upload-button">Upload</button>
+                    <button class="clickable" id="share-button">Share</button>
                 </div>
             </div>
         </div>
@@ -74,14 +74,14 @@
                             </p>
                         </div>
                         <div class="icons">
-                            <img src="./eye-plus-outline.svg" alt="eye icon">
-                            <img src="./star-plus-outline.svg" alt="star icon">
-                            <img src="./file-tree-outline.svg" alt="file-tree-outline">
+                            <img class="clickable" src="./eye-plus-outline.svg" alt="eye icon">
+                            <img class="clickable" src="./star-plus-outline.svg" alt="star icon">
+                            <img class="clickable" src="./file-tree-outline.svg" alt="file-tree-outline">
                         </div>
                     </div>
                     <div class="card">
                         <div class="color-panel"></div>
-                        <div class="project-name">Super Cool Project</div>
+                        <div class="project-name">Less Cool Project</div>
                         <div class="project-description">
                             <p>
                             Lorem ipsum dolor sit
@@ -90,14 +90,14 @@
                             </p>
                         </div>
                         <div class="icons">
-                            <img src="./eye-plus-outline.svg" alt="eye icon">
-                            <img src="./star-plus-outline.svg" alt="star icon">
-                            <img src="./file-tree-outline.svg" alt="file-tree-outline">
+                            <img class="clickable" src="./eye-plus-outline.svg" alt="eye icon">
+                            <img class="clickable" src="./star-plus-outline.svg" alt="star icon">
+                            <img class="clickable" src="./file-tree-outline.svg" alt="file-tree-outline">
                         </div>
                     </div>
                     <div class="card">
                         <div class="color-panel"></div>
-                        <div class="project-name">Super Cool Project</div>
+                        <div class="project-name">Impossible App</div>
                         <div class="project-description">
                             <p>
                             Lorem ipsum dolor sit
@@ -106,14 +106,14 @@
                             </p>
                         </div>
                         <div class="icons">
-                            <img src="./eye-plus-outline.svg" alt="eye icon">
-                            <img src="./star-plus-outline.svg" alt="star icon">
-                            <img src="./file-tree-outline.svg" alt="file-tree-outline">
+                            <img class="clickable" src="./eye-plus-outline.svg" alt="eye icon">
+                            <img class="clickable" src="./star-plus-outline.svg" alt="star icon">
+                            <img class="clickable" src="./file-tree-outline.svg" alt="file-tree-outline">
                         </div>
                     </div>
                     <div class="card">
                         <div class="color-panel"></div>
-                        <div class="project-name">Super Cool Project</div>
+                        <div class="project-name">Easy Peasy App</div>
                         <div class="project-description">
                             <p>
                             Lorem ipsum dolor sit
@@ -124,23 +124,7 @@
                     </div>
                     <div class="card">
                         <div class="color-panel"></div>
-                        <div class="project-name">Super Cool Project</div>
-                        <div class="project-description">
-                            <p>
-                            Lorem ipsum dolor sit
-                                amet, consectetur adipiscing elit, sed do eiusmod
-                                tempor incididunt ut labore et dolore magna aliqua.
-                            </p>
-                        </div>
-                        <div class="icons">
-                            <img src="./eye-plus-outline.svg" alt="eye icon">
-                            <img src="./star-plus-outline.svg" alt="star icon">
-                            <img src="./file-tree-outline.svg" alt="file-tree-outline">
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="color-panel"></div>
-                        <div class="project-name">Super Cool Project</div>
+                        <div class="project-name">Ad Blockert</div>
                         <div class="project-description">
                             <p>
                             Lorem ipsum dolor sit
@@ -149,9 +133,25 @@
                             </p>
                         </div>
                         <div class="icons">
-                            <img src="./eye-plus-outline.svg" alt="eye icon">
-                            <img src="./star-plus-outline.svg" alt="star icon">
-                            <img src="./file-tree-outline.svg" alt="file-tree-outline">
+                            <img class="clickable" src="./eye-plus-outline.svg" alt="eye icon">
+                            <img class="clickable" src="./star-plus-outline.svg" alt="star icon">
+                            <img class="clickable" src="./file-tree-outline.svg" alt="file-tree-outline">
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="color-panel"></div>
+                        <div class="project-name">Money Maker</div>
+                        <div class="project-description">
+                            <p>
+                            Lorem ipsum dolor sit
+                                amet, consectetur adipiscing elit, sed do eiusmod
+                                tempor incididunt ut labore et dolore magna aliqua.
+                            </p>
+                        </div>
+                        <div class="icons">
+                            <img class="clickable" src="./eye-plus-outline.svg" alt="eye icon">
+                            <img class="clickable" src="./star-plus-outline.svg" alt="star icon">
+                            <img class="clickable" src="./file-tree-outline.svg" alt="file-tree-outline">
                         </div>
                 </div>
                 </div>
@@ -192,28 +192,27 @@
                 <div class="trending card">
                     <div class="trending-post">
                         <img src="./jae-park-7GX5aICb5i4-unsplash.jpg" alt="profile picture">
-                        <div class="handle">@emily</div>
+                        <div class="handle clickable">@emily</div>
                         <div class="bio">Aspiring Dev</div>
                     </div>
                     <div class="trending-post">
                         <img src="./marlowe-weingart-RbN8pwcYCyM-unsplash.jpg" alt="profile picture">
-                        <div class="handle">@hedgehog</div>
+                        <div class="handle clickable">@hedgehog</div>
                         <div class="bio">Hedge the Hog</div>
                     </div>
                     <div class="trending-post">
                         <img src="./alvan-nee-brFsZ7qszSY-unsplash.jpg" alt="profile picture">
-                        <div class="handle">@tegan</div>
+                        <div class="handle clickable">@tegan</div>
                         <div class="bio">Good Boy</div>
                     </div>
                     <div class="trending-post">
                         <img src="./alex-lauzon-rOv3ktFv4pk-unsplash.jpg" alt="profile picture">
-                        <div class="handle">@tegan</div>
+                        <div class="handle clickable">@tegan</div>
                         <div class="bio">Sandy Cheeks</div>
                     </div>
                 </div>
             </div>
         </div>
-
     </div>
 </body>
 </html>
